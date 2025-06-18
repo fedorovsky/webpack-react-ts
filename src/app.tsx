@@ -1,5 +1,18 @@
 import React from 'react';
+import { globalCss } from '@pigment-css/react';
+import { Card } from './components/card';
+
+globalCss`
+  body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+  }
+`;
 
 export const App = () => {
-  return <h1>Hello</h1>;
+  return (
+    <div>
+      <Card />
+    </div>
+  );
 };
