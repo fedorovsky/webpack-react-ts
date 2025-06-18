@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 const App = () => {
-    return <h1>Hello, Webpack + React + TypeScript!</h1>;
+  return <h1>Hello, Webpack + React + TypeScript!</h1>;
 };
 
 const root = ReactDOM.createRoot(document.getElementById('root')!);
