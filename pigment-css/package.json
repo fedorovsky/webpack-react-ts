@@ -1,0 +1,12 @@
+{
+  "name": "pigment-css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:theme": "tsc -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
