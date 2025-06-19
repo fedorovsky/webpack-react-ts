@@ -1,12 +1,13 @@
 {
   "name": "pigment-css",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build:theme": "tsc -p tsconfig.json"
+    "build:theme": "tsc"
   },
   "keywords": [],
-  "author": "",
+  "author": "a.fedorovskyi",
   "license": "ISC",
   "description": ""
 }
