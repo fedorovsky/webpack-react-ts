@@ -1,7 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const { webpack: PigmentPlugin, extendTheme } = require('@pigment-css/unplugin');
+const { webpack: PigmentPlugin } = require('@pigment-css/unplugin');
 const { pigmentTheme } = require('./pigment-css/dist/theme');
 
 module.exports = {
