@@ -2,6 +2,7 @@ import React from 'react';
 import { globalCss } from '@pigment-css/react';
 import { Card } from './components/card';
 import { ToggleTheme } from './components/theme';
+import { LazyComponent } from './components/lazy-component';
 
 globalCss`
   body {
@@ -17,6 +18,7 @@ export const App = () => {
     <div>
       <ToggleTheme />
       <Card />
+      <LazyComponent />
     </div>
   );
 };
