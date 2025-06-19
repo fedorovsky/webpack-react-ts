@@ -1,5 +1,4 @@
 import { extendTheme } from './utils/extend-theme';
-import '@pigment-css/react/theme';
 
 export const pigmentTheme = extendTheme({
   colorSchemes: {
