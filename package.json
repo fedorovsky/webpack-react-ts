@@ -4,9 +4,8 @@
   "description": "webpack-react-ts",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build:theme && webpack serve --mode development",
-    "build": "npm run build:theme && webpack --mode production",
-    "build:theme": "npm --prefix pigment-css run build:theme",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
     "format": "prettier --write .",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\""
   },
@@ -14,7 +13,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@pigment-css/react": "^0.0.30",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
@@ -24,7 +22,6 @@
     "@babel/preset-react": "^7.27.1",
     "@babel/preset-typescript": "^7.27.1",
     "@eslint/js": "^9.29.0",
-    "@pigment-css/unplugin": "^0.0.30",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "babel-loader": "^10.0.0",
