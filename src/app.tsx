@@ -1,10 +1,9 @@
 import React from 'react';
-import { ThemeSwitcher } from './components/theme-switcher';
 
 export const App = () => {
   return (
     <div>
-      <ThemeSwitcher />
+      <h1>Webpack React</h1>
     </div>
   );
 };
